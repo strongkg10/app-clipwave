@@ -1,0 +1,18 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradiente roxo → lilás -->
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6A00FF" />
+      <stop offset="100%" stop-color="#C77DFF" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Forma triangular arredondada com gradiente -->
+  <path d="M50 10 L85 75 Q85 85 75 85 L25 85 Q15 85 15 75 L50 10 Z" fill="url(#purpleGradient)" />
+  
+  <!-- Onda preta estilizada na diagonal inferior -->
+  <path d="M30 70 Q40 65 50 70 T70 70 L75 85 L25 85 Z" fill="#000000" opacity="0.3" />
+  
+  <!-- Play branco no centro -->
+  <path d="M45 40 L45 60 L65 50 Z" fill="#FFFFFF" />
+</svg>

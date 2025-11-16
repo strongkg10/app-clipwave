@@ -1,0 +1,197 @@
+import { Locale } from './i18n';
+
+export const translations: Record<Locale, Record<string, string>> = {
+  pt: {
+    // Navbar
+    'nav.dashboard': 'Dashboard',
+    'nav.myVideos': 'Meus Vídeos',
+    'nav.youtube': 'YouTube',
+    'nav.pricing': 'Planos',
+    'nav.createVideo': 'Criar Vídeo',
+    'nav.login': 'Entrar',
+    'nav.signup': 'Começar Grátis',
+    'nav.settings': 'Configurações',
+    'nav.logout': 'Sair',
+    'nav.youtubeDownloader': 'YouTube Downloader',
+    
+    // Plans
+    'plan.free': 'Plano Free',
+    'plan.pro': 'Plano Pro',
+    'plan.creator': 'Plano Creator',
+    
+    // Home Page
+    'home.badge': 'Edição automática com IA',
+    'home.title1': 'Transforme vídeos longos em',
+    'home.title2': 'shorts virais',
+    'home.subtitle': 'Cortes automáticos, legendas estilizadas, highlights e dublagem com IA. Tudo em segundos, sem edição manual.',
+    'home.cta.start': 'Começar Agora',
+    'home.cta.plans': 'Ver Planos',
+    'home.stats.faster': 'Mais rápido',
+    'home.stats.automatic': 'Automático',
+    'home.stats.quality': 'Qualidade',
+    'home.features.title': 'Tudo que você precisa para viralizar',
+    'home.features.subtitle': 'Ferramentas profissionais de edição, automatizadas por IA',
+    'home.cta2.title': 'Pronto para criar seu primeiro viral?',
+    'home.cta2.subtitle': 'Comece grátis agora. Sem cartão de crédito necessário.',
+    'home.footer': '© 2024 ClipWave. Todos os direitos reservados.',
+    
+    // Features
+    'feature.autoCuts.title': 'Cortes Automáticos',
+    'feature.autoCuts.desc': 'IA detecta pausas e remove silêncios para vídeos dinâmicos',
+    'feature.captions.title': 'Legendas Virais',
+    'feature.captions.desc': 'Legendas estilizadas com destaque de palavras-chave',
+    'feature.highlights.title': 'Highlights IA',
+    'feature.highlights.desc': 'Extrai automaticamente os melhores momentos do vídeo',
+    'feature.dubbing.title': 'Dublagem Multi-idioma',
+    'feature.dubbing.desc': 'Traduza e duble em português, inglês e espanhol',
+    'feature.voiceClone.title': 'Clonagem de Voz',
+    'feature.voiceClone.desc': 'Clone sua voz para dublagens naturais',
+    'feature.broll.title': 'B-roll Automático',
+    'feature.broll.desc': 'Insere imagens e vídeos relevantes automaticamente',
+    'feature.templates.title': 'Templates Virais',
+    'feature.templates.desc': 'Estilos prontos usados por criadores de sucesso',
+    'feature.export.title': 'Exportação 4K',
+    'feature.export.desc': 'Qualidade profissional em 720p, 1080p e 4K',
+    
+    // AI Assistant
+    'assistant.title': 'Assistente IA',
+    'assistant.status': 'Online agora',
+    'assistant.welcome': 'Olá! 👋 Sou seu assistente de IA. Como posso ajudar você hoje?',
+    'assistant.response': 'Entendi sua pergunta! Estou aqui para ajudar com edição de vídeos, recursos da plataforma e dicas para criar conteúdo viral. O que você gostaria de saber?',
+    'assistant.placeholder': 'Digite sua mensagem...',
+    'assistant.send': 'Enviar',
+    'assistant.open': 'Abrir assistente',
+    'assistant.close': 'Fechar assistente',
+    'assistant.hint': 'Pressione Enter para enviar',
+  },
+  en: {
+    // Navbar
+    'nav.dashboard': 'Dashboard',
+    'nav.myVideos': 'My Videos',
+    'nav.youtube': 'YouTube',
+    'nav.pricing': 'Pricing',
+    'nav.createVideo': 'Create Video',
+    'nav.login': 'Login',
+    'nav.signup': 'Get Started',
+    'nav.settings': 'Settings',
+    'nav.logout': 'Logout',
+    'nav.youtubeDownloader': 'YouTube Downloader',
+    
+    // Plans
+    'plan.free': 'Free Plan',
+    'plan.pro': 'Pro Plan',
+    'plan.creator': 'Creator Plan',
+    
+    // Home Page
+    'home.badge': 'Automatic AI editing',
+    'home.title1': 'Transform long videos into',
+    'home.title2': 'viral shorts',
+    'home.subtitle': 'Automatic cuts, stylized captions, highlights and AI dubbing. Everything in seconds, no manual editing.',
+    'home.cta.start': 'Get Started',
+    'home.cta.plans': 'View Plans',
+    'home.stats.faster': 'Faster',
+    'home.stats.automatic': 'Automatic',
+    'home.stats.quality': 'Quality',
+    'home.features.title': 'Everything you need to go viral',
+    'home.features.subtitle': 'Professional editing tools, automated by AI',
+    'home.cta2.title': 'Ready to create your first viral?',
+    'home.cta2.subtitle': 'Start for free now. No credit card required.',
+    'home.footer': '© 2024 ClipWave. All rights reserved.',
+    
+    // Features
+    'feature.autoCuts.title': 'Automatic Cuts',
+    'feature.autoCuts.desc': 'AI detects pauses and removes silences for dynamic videos',
+    'feature.captions.title': 'Viral Captions',
+    'feature.captions.desc': 'Stylized captions with keyword highlighting',
+    'feature.highlights.title': 'AI Highlights',
+    'feature.highlights.desc': 'Automatically extracts the best moments from the video',
+    'feature.dubbing.title': 'Multi-language Dubbing',
+    'feature.dubbing.desc': 'Translate and dub in Portuguese, English and Spanish',
+    'feature.voiceClone.title': 'Voice Cloning',
+    'feature.voiceClone.desc': 'Clone your voice for natural dubbing',
+    'feature.broll.title': 'Automatic B-roll',
+    'feature.broll.desc': 'Automatically inserts relevant images and videos',
+    'feature.templates.title': 'Viral Templates',
+    'feature.templates.desc': 'Ready-made styles used by successful creators',
+    'feature.export.title': '4K Export',
+    'feature.export.desc': 'Professional quality in 720p, 1080p and 4K',
+    
+    // AI Assistant
+    'assistant.title': 'AI Assistant',
+    'assistant.status': 'Online now',
+    'assistant.welcome': 'Hello! 👋 I\'m your AI assistant. How can I help you today?',
+    'assistant.response': 'I understand your question! I\'m here to help with video editing, platform features, and tips for creating viral content. What would you like to know?',
+    'assistant.placeholder': 'Type your message...',
+    'assistant.send': 'Send',
+    'assistant.open': 'Open assistant',
+    'assistant.close': 'Close assistant',
+    'assistant.hint': 'Press Enter to send',
+  },
+  es: {
+    // Navbar
+    'nav.dashboard': 'Panel',
+    'nav.myVideos': 'Mis Videos',
+    'nav.youtube': 'YouTube',
+    'nav.pricing': 'Planes',
+    'nav.createVideo': 'Crear Video',
+    'nav.login': 'Iniciar Sesión',
+    'nav.signup': 'Empezar Gratis',
+    'nav.settings': 'Configuración',
+    'nav.logout': 'Salir',
+    'nav.youtubeDownloader': 'Descargador de YouTube',
+    
+    // Plans
+    'plan.free': 'Plan Gratis',
+    'plan.pro': 'Plan Pro',
+    'plan.creator': 'Plan Creator',
+    
+    // Home Page
+    'home.badge': 'Edición automática con IA',
+    'home.title1': 'Transforma videos largos en',
+    'home.title2': 'shorts virales',
+    'home.subtitle': 'Cortes automáticos, subtítulos estilizados, highlights y doblaje con IA. Todo en segundos, sin edición manual.',
+    'home.cta.start': 'Empezar Ahora',
+    'home.cta.plans': 'Ver Planes',
+    'home.stats.faster': 'Más rápido',
+    'home.stats.automatic': 'Automático',
+    'home.stats.quality': 'Calidad',
+    'home.features.title': 'Todo lo que necesitas para viralizar',
+    'home.features.subtitle': 'Herramientas profesionales de edición, automatizadas por IA',
+    'home.cta2.title': '¿Listo para crear tu primer viral?',
+    'home.cta2.subtitle': 'Comienza gratis ahora. No se requiere tarjeta de crédito.',
+    'home.footer': '© 2024 ClipWave. Todos los derechos reservados.',
+    
+    // Features
+    'feature.autoCuts.title': 'Cortes Automáticos',
+    'feature.autoCuts.desc': 'IA detecta pausas y elimina silencios para videos dinámicos',
+    'feature.captions.title': 'Subtítulos Virales',
+    'feature.captions.desc': 'Subtítulos estilizados con resaltado de palabras clave',
+    'feature.highlights.title': 'Highlights IA',
+    'feature.highlights.desc': 'Extrae automáticamente los mejores momentos del video',
+    'feature.dubbing.title': 'Doblaje Multi-idioma',
+    'feature.dubbing.desc': 'Traduce y dobla en portugués, inglés y español',
+    'feature.voiceClone.title': 'Clonación de Voz',
+    'feature.voiceClone.desc': 'Clona tu voz para doblajes naturales',
+    'feature.broll.title': 'B-roll Automático',
+    'feature.broll.desc': 'Inserta imágenes y videos relevantes automáticamente',
+    'feature.templates.title': 'Plantillas Virales',
+    'feature.templates.desc': 'Estilos listos usados por creadores exitosos',
+    'feature.export.title': 'Exportación 4K',
+    'feature.export.desc': 'Calidad profesional en 720p, 1080p y 4K',
+    
+    // AI Assistant
+    'assistant.title': 'Asistente IA',
+    'assistant.status': 'En línea ahora',
+    'assistant.welcome': '¡Hola! 👋 Soy tu asistente de IA. ¿Cómo puedo ayudarte hoy?',
+    'assistant.response': '¡Entiendo tu pregunta! Estoy aquí para ayudar con edición de videos, funciones de la plataforma y consejos para crear contenido viral. ¿Qué te gustaría saber?',
+    'assistant.placeholder': 'Escribe tu mensaje...',
+    'assistant.send': 'Enviar',
+    'assistant.open': 'Abrir asistente',
+    'assistant.close': 'Cerrar asistente',
+    'assistant.hint': 'Presiona Enter para enviar',
+  },
+};
+
+export function t(locale: Locale, key: string): string {
+  return translations[locale][key] || key;
+}
